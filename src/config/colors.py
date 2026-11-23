@@ -18,9 +18,11 @@ MAROON  = "#7F1B21"
 
 # Neutrals
 NEAR_BLACK       = "#010101"
+BLUE_BLACK       = "#000910"
 MIDNIGHT_BLUE    = "#010D15"
 ULTRA_DARK_BLUE  = "#040D16"
 DARK_BLUE        = "#162129"
+DEEPEST_SLATE    = "#2A3340"
 DEEP_SLATE       = "#3A4A5C"
 MEDIUM_SLATE     = "#49525B"
 BLUE_GRAY        = "#56657A"
@@ -42,14 +44,14 @@ LAND        = DEEP_SLATE        # Brazil fill
 LAND_MUTED  = ULTRA_DARK_BLUE   # surrounding countries fill
 
 # Lines & borders
-BORDER      = MEDIUM_SLATE    # country outlines
-GRIDLINE    = SLATE           # chart gridlines + internal state/muni borders
-OUTLINE     = NOBEL           # bright Brazil edge
-FLOW_LINE   = SKY             # connection-map arcs
+BORDER       = MEDIUM_SLATE    
+GRIDLINE     = SLATE           
+OUTLINE      = NOBEL           
+FLOW_LINE    = SKY             # connection-map arcs
 
 # Text
-LABEL       = SLATE           # axis text, map labels
-TITLE       = WHITE           # chart / map titles
+LABEL        = SLATE           # axis text, map labels
+TITLE        = WHITE           # chart / map titles
 
 # Single series color
 SINGLE_SERIES   = SKY                          
@@ -99,10 +101,15 @@ PALETTE_REVIEW = {
 CUSTOMER_DENSITY_SCALE = "Tealgrn"
 SELLER_DENSITY_SCALE   = "Redor"
 
-# Bivariate anchors
-BIVARIATE_LOW    = DARK_BLUE  
-BIVARIATE_X_HIGH = PURPLE   
-BIVARIATE_Y_HIGH = NEAR_BLACK   
+# Bivariate map overrides and legend colors
+BIVARIATE_LOW           = DARK_BLUE  
+BIVARIATE_X_HIGH        = PURPLE   
+BIVARIATE_Y_HIGH        = NEAR_BLACK 
+BIVARIATE_BACKGROUND    = BLUE_BLACK  
+BIVARIATE_COUNTRY_LINE  = NOBEL   
+BIVARIATE_OUTLINE       = SLATE   
+BIVARIATE_EMPTY_CITY    = BLUE_BLACK   
+BIVARIATE_CITY_LINE     = DEEPEST_SLATE   
 
 # Table Styling
 # Background fills
