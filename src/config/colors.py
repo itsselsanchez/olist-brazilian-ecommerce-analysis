@@ -1,4 +1,3 @@
-
 # -----------------------------------------------------------
 # Raw hex & rgb color definitions
 # -----------------------------------------------------------
@@ -9,12 +8,13 @@ TEAL   = "#2EC4A0"
 SKY    = "#4BBFE0"
 
 # Other colors
-CYAN    = "#51c9fe"
-MAGENTA = "#CB5BFF"
-PURPLE  = "#9A4EAA"
-CORAL   = "#F4845F"
-YELLOW  = "#FFD166"
-MAROON  = "#7F1B21"
+CYAN      = "#51c9fe"
+MAGENTA   = "#CB5BFF"
+PURPLE    = "#9A4EAA"
+SEA_GREEN = "#3E8C75"
+CORAL     = "#F4845F"
+YELLOW    = "#FFD166"
+MAROON    = "#7F1B21"
 
 # Neutrals
 NEAR_BLACK       = "#010101"
@@ -40,7 +40,7 @@ TRANSPARENT = "rgba(0, 0, 0, 0)"
 
 # Surfaces
 BACKGROUND  = MIDNIGHT_BLUE     # paper, plot, map bg, ocean
-LAND        = DEEP_SLATE        # Brazil fill
+LAND        = DARK_BLUE         # Brazil fill
 LAND_MUTED  = ULTRA_DARK_BLUE   # surrounding countries fill
 
 # Lines & borders
@@ -104,7 +104,7 @@ SELLER_DENSITY_SCALE   = "Redor"
 # Bivariate map overrides and legend colors
 BIVARIATE_LOW           = DARK_BLUE  
 BIVARIATE_X_HIGH        = PURPLE   
-BIVARIATE_Y_HIGH        = NEAR_BLACK 
+BIVARIATE_Y_HIGH        = SEA_GREEN 
 BIVARIATE_BACKGROUND    = BLUE_BLACK  
 BIVARIATE_COUNTRY_LINE  = NOBEL   
 BIVARIATE_OUTLINE       = SLATE   
